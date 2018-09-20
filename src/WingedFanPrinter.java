@@ -1,3 +1,5 @@
+import enums.FanDirection;
+
 public class WingedFanPrinter {
 
     private char[][] map;

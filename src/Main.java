@@ -1,3 +1,6 @@
+import enums.FanDirection;
+import enums.FanPrinterType;
+
 import java.util.Scanner;
 import static java.lang.Math.abs;
 

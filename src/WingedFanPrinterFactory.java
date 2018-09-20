@@ -1,3 +1,6 @@
+import enums.FanPrinterType;
+import enums.WingType;
+
 public class WingedFanPrinterFactory {
 
     public static WingedFanPrinter getWingedFanPrinter (FanPrinterType type) {
@@ -8,6 +11,6 @@ public class WingedFanPrinterFactory {
         if (type == FanPrinterType.QuadrupleSymmetry) {
             return new WingedFanPrinterQuadrupleSymmetry(wingMap);
         }
-        throw new IllegalArgumentException("Illegal FanPrinterType: " + type);
+        throw new IllegalArgumentException("Illegal enums.FanPrinterType: " + type);
     }
 }
